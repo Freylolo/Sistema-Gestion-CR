@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { RolePipe } from '../role.pipe';
+import { ApiService } from '../api.service';
 import { EventosComponent } from './eventos.component';
 
 describe('EventosComponent', () => {
@@ -8,7 +10,9 @@ describe('EventosComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [EventosComponent]
+      imports: [HttpClientTestingModule], // Módulos necesarios
+      declarations: [EventosComponent, RolePipe], // Declarar el pipe junto con el componente
+      providers: [ApiService] // Servicios necesarios
     })
     .compileComponents();
     
