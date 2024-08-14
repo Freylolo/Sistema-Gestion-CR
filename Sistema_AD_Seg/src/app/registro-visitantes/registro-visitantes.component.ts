@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-registro-visitantes',
   templateUrl: './registro-visitantes.component.html',
-  styleUrls: ['./registro-visitantes.component.css']
+  styleUrl: './registro-visitantes.component.css'
 })
 export class RegistroVisitantesComponent implements AfterViewInit {
 

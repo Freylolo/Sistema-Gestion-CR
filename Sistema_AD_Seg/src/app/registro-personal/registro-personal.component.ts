@@ -11,7 +11,7 @@ import {EditarPersonalDialogoComponent} from '../editar-personal-dialogo/editar-
 @Component({
   selector: "app-registro-personal",
   templateUrl: "./registro-personal.component.html",
-  styleUrls: ["./registro-personal.component.css"],
+  styleUrl: "./registro-personal.component.css",
 })
 export class RegistroPersonalComponent implements OnInit {
   username: string = ""; // Inicialmente vacío

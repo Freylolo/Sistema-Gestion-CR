@@ -12,7 +12,7 @@ import {EditarUsuariosDialogoComponent} from '../editar-usuarios-dialogo/editar-
 @Component({
   selector: "app-gestionusuario",
   templateUrl: "./gestionusuario.component.html",
-  styleUrls: ["./gestionusuario.component.css"],
+  styleUrl: "./gestionusuario.component.css",
 })
 export class GestionusuarioComponent implements OnInit {
   username: string = ""; // Inicialmente vacío

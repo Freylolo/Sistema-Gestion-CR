@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-editar-alicuotas-dialogo',
   templateUrl: './editar-alicuotas-dialogo.component.html',
-  styleUrls: ['./editar-alicuotas-dialogo.component.css']
+  styleUrl: './editar-alicuotas-dialogo.component.css'
 })
 export class EditarAlicuotasDialogoComponent implements OnInit {
   form!: FormGroup;

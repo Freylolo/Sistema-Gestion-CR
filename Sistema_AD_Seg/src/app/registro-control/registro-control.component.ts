@@ -12,7 +12,7 @@ import { EditarControlDialogoComponent } from "../editar-control-dialogo/editar-
 @Component({
   selector: 'app-registro-control',
   templateUrl: './registro-control.component.html',
-  styleUrls: ['./registro-control.component.css'] 
+  styleUrl: './registro-control.component.css'
 })
 export class RegistroControlComponent {
 

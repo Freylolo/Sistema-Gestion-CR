@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 @Component({
   selector: 'app-editar-control-dialogo',
   templateUrl: './editar-control-dialogo.component.html',
-  styleUrls: ['./editar-control-dialogo.component.css']
+  styleUrl: './editar-control-dialogo.component.css'
 })
 export class EditarControlDialogoComponent implements OnInit {
   form!: FormGroup; 

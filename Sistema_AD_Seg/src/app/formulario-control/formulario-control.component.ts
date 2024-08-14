@@ -8,7 +8,7 @@ import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-formulario-control',
   templateUrl: './formulario-control.component.html',
-  styleUrls: ['./formulario-control.component.css']
+  styleUrl: './formulario-control.component.css'
 })
 export class FormularioControlComponent implements OnInit {
 

@@ -7,7 +7,7 @@ import { ApiService } from "../api.service";
 @Component({
   selector: 'app-lector-qr',
   templateUrl: './lector-qr.component.html',
-  styleUrls: ['./lector-qr.component.css']
+  styleUrl: './lector-qr.component.css'
 })
 export class LectorQrComponent implements AfterViewInit {
 

@@ -5,7 +5,7 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-invitados-modal',
   templateUrl: './invitados-modal.component.html',
-  styleUrls: ['./invitados-modal.component.css']
+  styleUrl: './invitados-modal.component.css'
 })
 export class InvitadosModalComponent  implements OnInit {
   @Input() data: any[] = []; 
